@@ -1,0 +1,10 @@
+name: qwen2.5-coder-3b
+version: 1.1.0
+schema: v1
+models:
+  - name: qwen2.5-coder 3b
+    provider: ollama
+    model: qwen2.5-coder:3b-instruct-q8_0
+    apiBase: http://192.168.0.148:11434
+    roles:
+      - autocomplete

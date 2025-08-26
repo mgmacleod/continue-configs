@@ -1,0 +1,17 @@
+name: gpt-oss 20b
+version: 1.0.0
+schema: v1
+
+models:
+  - name: gpt-oss 20b
+    provider: ollama
+    model: gpt-ossb:20b
+    apiBase: http://192.168.0.114:11434
+    roles:
+      - apply
+      - chat
+      - edit
+    capabilities:
+      - tool_use
+    defaultCompletionOptions:
+      contextLength: 64000

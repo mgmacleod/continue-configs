@@ -1,0 +1,17 @@
+name: GLM 4.5 Air
+version: 1.0.0
+schema: v1
+
+models:
+  - name: GLM 4.5 Air
+    provider: ollama
+    model: glm-4.5-air:110b
+    apiBase: http://192.168.0.169:11434
+    roles:
+      - apply
+      - chat
+      - edit
+    capabilities:
+      - tool_use
+    defaultCompletionOptions:
+      contextLength: 64000
