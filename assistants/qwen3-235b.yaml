@@ -15,3 +15,18 @@ models:
       - tool_use
     defaultCompletionOptions:
       contextLength: 64000
+
+context:
+  - uses: continuedev/diff-context
+  - uses: continuedev/codebase-context
+  - uses: continuedev/url-context
+  - uses: continuedev/folder-context
+  - uses: continuedev/terminal-context
+  - uses: continuedev/code-context
+  - uses: continuedev/file-context
+  - uses: continuedev/repo-map-context
+  - uses: continuedev/os-context
+  - uses: continuedev/web-context
+  - provider: search
+    params:
+      maxResults: 100
