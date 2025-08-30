@@ -1,0 +1,8 @@
+name: default-transformers
+version: 1.0.0
+schema: v1
+models:
+  - name: default-transformers
+    provider: transformers.js
+    roles:
+      - embed

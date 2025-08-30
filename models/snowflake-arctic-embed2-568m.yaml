@@ -4,7 +4,7 @@ schema: v1
 models:
   - name: snowflake-arctic-embed2-568m
     provider: ollama
-    model: snowflake-arctic-embed2:568m-fix
-    apiBase: http://192.168.0.148:11434
+    model: snowflake-arctic-embed2:fixed
+    apiBase: http://192.168.0.110:11434
     roles:
       - embed
